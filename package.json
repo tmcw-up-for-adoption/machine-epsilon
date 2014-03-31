@@ -1,0 +1,30 @@
+{
+  "name": "machine-epsilon",
+  "version": "0.0.0",
+  "description": "lexical arithmetic for floating point numbers",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tmcw/machine-epsilon.git"
+  },
+  "keywords": [
+    "floating",
+    "point",
+    "arithmetic"
+  ],
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmcw/floatlexorder/issues"
+  },
+  "homepage": "https://github.com/tmcw/floatlexorder",
+  "devDependencies": {
+    "tap": "~0.4.8"
+  }
+}
