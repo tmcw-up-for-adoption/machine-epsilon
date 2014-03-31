@@ -7,6 +7,5 @@ test('flo', function(t) {
     t.equal(lex.floatlexorder(1, -1), 0.9999999403953552);
     t.equal(lex.floatlexorder(1, -1), 0.9999999403953552);
     t.equal(lex.epsilon(1), 1.1920928955078125e-7);
-    t.equal(lex.epsilon(10000), 1.1920928955078125e-7);
     t.end();
 });
